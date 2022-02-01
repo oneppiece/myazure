@@ -1,0 +1,36 @@
+<publishData>
+    <publishProfile profileName="webduzy - Web Deploy" publishMethod="MSDeploy"
+                    publishUrl="webduzy.scm.azurewebsites.net:443" msdeploySite="webduzy" userName="$webduzy"
+                    userPWD="67t6jTA8JBbKwExYycsbhqLb0tC51HHkcXpAwGrZyCEv79Hj9kK5W50S4oj5"
+                    destinationAppUrl="http://webduzy.azurewebsites.net" SQLServerDBConnectionString=""
+                    mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+                    webSystem="WebSites">
+        <databases/>
+    </publishProfile>
+    <publishProfile profileName="webduzy - FTP" publishMethod="FTP"
+                    publishUrl="ftp://waws-prod-os1-009.ftp.azurewebsites.windows.net/site/wwwroot"
+                    ftpPassiveMode="True" userName="webduzy\$webduzy"
+                    userPWD="67t6jTA8JBbKwExYycsbhqLb0tC51HHkcXpAwGrZyCEv79Hj9kK5W50S4oj5"
+                    destinationAppUrl="http://webduzy.azurewebsites.net" SQLServerDBConnectionString=""
+                    mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+                    webSystem="WebSites">
+        <databases/>
+    </publishProfile>
+    <publishProfile profileName="webduzy - Zip Deploy" publishMethod="ZipDeploy"
+                    publishUrl="webduzy.scm.azurewebsites.net:443" userName="$webduzy"
+                    userPWD="67t6jTA8JBbKwExYycsbhqLb0tC51HHkcXpAwGrZyCEv79Hj9kK5W50S4oj5"
+                    destinationAppUrl="http://webduzy.azurewebsites.net" SQLServerDBConnectionString=""
+                    mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+                    webSystem="WebSites">
+        <databases/>
+    </publishProfile>
+    <publishProfile profileName="webduzy - ReadOnly - FTP" publishMethod="FTP"
+                    publishUrl="ftp://waws-prod-os1-009dr.ftp.azurewebsites.windows.net/site/wwwroot"
+                    ftpPassiveMode="True" userName="webduzy\$webduzy"
+                    userPWD="67t6jTA8JBbKwExYycsbhqLb0tC51HHkcXpAwGrZyCEv79Hj9kK5W50S4oj5"
+                    destinationAppUrl="http://webduzy.azurewebsites.net" SQLServerDBConnectionString=""
+                    mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+                    webSystem="WebSites">
+        <databases/>
+    </publishProfile>
+</publishData>
